@@ -1,8 +1,6 @@
--- First, we define a universe and an object type in that universe
 universe u
 constant obj : Type u
 
--- We define predicates for each property and class
 constant zumpus : obj → Prop
 constant tumpus : obj → Prop
 constant transparent : obj → Prop
@@ -23,7 +21,6 @@ constant numpus : obj → Prop
 constant feisty : obj → Prop
 constant polly : obj
 
--- We encode the given statements as axioms
 axiom A1 : ∀ x, zumpus x → tumpus x
 axiom A2 : ∀ x, zumpus x → transparent x
 axiom A3 : ∀ x, vumpus x → zumpus x
@@ -43,7 +40,6 @@ axiom A16 : ∀ x, numpus x → impus x
 axiom A17 : ∀ x, numpus x → ¬ feisty x
 axiom A18 : vumpus polly
 
--- We can now use these axioms to prove the statement
 theorem polly_is_not_brown : ¬ brown polly :=
 begin
   sorry
