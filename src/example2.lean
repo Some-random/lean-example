@@ -42,5 +42,6 @@ axiom A18 : vumpus polly
 
 theorem polly_is_not_brown : ¬ brown polly :=
 begin
-  sorry,
+  apply A4,
+  exact A18,
 end
