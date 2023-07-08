@@ -40,6 +40,7 @@ axiom A16 : ∀ x, numpus x → impus x
 axiom A17 : ∀ x, numpus x → ¬ feisty x
 axiom A18 : vumpus polly
 
+-- Theorem to check if Polly is not brown
 theorem polly_is_not_brown : ¬ brown polly :=
 begin
   apply A4,
