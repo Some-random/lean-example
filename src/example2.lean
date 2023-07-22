@@ -1,4 +1,5 @@
--- natural language reasoning problem: Q: Every zumpus is a tumpus. Each zumpus is transparent. Vumpuses are zumpuses. Every vumpus is not brown. Each wumpus is a vumpus. Wumpuses are wooden. Jompuses are wumpuses. Each jompus is not floral. Yumpuses are jompuses. Yumpuses are mean. Dumpuses are yumpuses. Rompuses are brown. Dumpuses are spicy. Impuses are dumpuses. Every impus is large. Every numpus is an impus. Numpuses are not feisty. Polly is a vumpus. True or false: Polly is not brown.
+-- natural language reasoning problem: Q: Every zumpus is a tumpus. Each zumpus is transparent. Vumpuses are zumpuses. Every vumpus is not brown. Each wumpus is a vumpus. Wumpuses are wooden. Jompuses are wumpuses. Each jompus is not floral. 
+-- Yumpuses are jompuses. Yumpuses are mean. Dumpuses are yumpuses. Rompuses are brown. Dumpuses are spicy. Impuses are dumpuses. Every impus is large. Every numpus is an impus. Numpuses are not feisty. Polly is a vumpus. True or false: Polly is not brown.
 
 
 -- This is the formalization created by GPT-4
